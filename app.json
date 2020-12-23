@@ -1,22 +1,39 @@
 {
-    "expo": {
-        "name": "Cheap-IT",
-        "slug": "Cheap-IT",
-        "platforms": ["ios", "android", "web"],
-        "version": "1.0.0",
-        "orientation": "portrait",
-        "icon": "./assets/icon.png",
-        "splash": {
-            "image": "./assets/cheapit.png",
-            "resizeMode": "contain",
-            "backgroundColor": "#ffffff"
-        },
-        "updates": {
-            "fallbackToCacheTimeout": 0
-        },
-        "assetBundlePatterns": ["**/*"],
-        "ios": {
-            "supportsTablet": true
-        }
+  "expo": {
+    "name": "madn30",
+    "slug": "Cheap-IT",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "notification": {
+      "icon": "./assets/icon.png"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/cheapit.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "versionCode": 1,
+      "useNextNotificationsApi": true,
+      "package": "com.mypackage.CheapIT",
+      "googleServicesFile": "./google-services.json"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mypackage.CheapIT",
+      "buildNumber": "1.0.0"
     }
+  }
 }

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "114152557440",
+    "firebase_url": "https://cheap-it-280401.firebaseio.com",
+    "project_id": "cheap-it-280401",
+    "storage_bucket": "cheap-it-280401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114152557440:android:fcd9bfba67a1161d004f65",
+        "android_client_info": {
+          "package_name": "com.mypackage.CheapIT"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114152557440-hjkeskjq7p5igc3otn094ug0uq7covv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiNqhOUVDZ69OOzlEauezgcX4nvAJ17oE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114152557440-hjkeskjq7p5igc3otn094ug0uq7covv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
